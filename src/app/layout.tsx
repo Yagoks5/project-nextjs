@@ -15,7 +15,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <header>Cabeçado da aplicação</header>
+        <hr />
         {children}
+        <hr />
         <footer>Rodapé da aplicação</footer>
       </body>
     </html>
